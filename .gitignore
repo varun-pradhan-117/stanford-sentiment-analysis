@@ -1,0 +1,22 @@
+
+.data/AG_NEWS/train.csv
+.vector_cache/wiki.simple.vec
+.vector_cache/wiki.simple.vec.pt
+__MACOSX/stanfordSentimentTreebank/._datasetSentences.txt
+__MACOSX/stanfordSentimentTreebank/._datasetSplit.txt
+__MACOSX/stanfordSentimentTreebank/._dictionary.txt
+__MACOSX/stanfordSentimentTreebank/._original_rt_snippets.txt
+__MACOSX/stanfordSentimentTreebank/._README.txt
+__MACOSX/stanfordSentimentTreebank/._sentiment_labels.txt
+FastText Model/cc.en.300.bin
+junk.ipynb
+stanfordSentimentTreebank.zip
+stanfordSentimentTreebank/datasetSentences.txt
+stanfordSentimentTreebank/datasetSplit.txt
+stanfordSentimentTreebank/dictionary.txt
+stanfordSentimentTreebank/original_rt_snippets.txt
+stanfordSentimentTreebank/README.txt
+stanfordSentimentTreebank/sentiment_labels.txt
+stanfordSentimentTreebank/SOStr.txt
+stanfordSentimentTreebank/STree.txt
+trainDevTestTrees_PTB.zip
