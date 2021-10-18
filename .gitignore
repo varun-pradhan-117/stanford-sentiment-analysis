@@ -20,3 +20,8 @@ stanfordSentimentTreebank/sentiment_labels.txt
 stanfordSentimentTreebank/SOStr.txt
 stanfordSentimentTreebank/STree.txt
 trainDevTestTrees_PTB.zip
+*.json
+.data/AG_NEWS/test.csv
+simpleHillClimb.cpp
+simpleHillClimb.exe
+trash.py
