@@ -5,7 +5,7 @@ We're using the Stanford Sentiment Treebank (SST-5) for fine-grained sentiment a
 It consists of various movie reviews from Rotten Tomatoes labeled manually by various annotators on a 5 point scale. 1 being very negative and 5 being very positive.  
 We've use Python's pytreebank package which provides various utilities for downloading, importing and visualizing the SST-5 dataset.  
 The data from pytreebank is converted from trees found in the trees folder to more readable text files stored in the data folder.  
-The code for this conversion can be found in [sentiment-analyis.ipynb](sentiment-analysis.ipynb)
+The code for this conversion can be found in [sentiment-analysis.ipynb](models/sentiment-analysis.ipynb)
 # Models
 1) The first model uses TF-IDF embeddings and an FF network.  
  - The model's accuracy improves significantly over the training data but performance on the validation data degrades with every epoch.
