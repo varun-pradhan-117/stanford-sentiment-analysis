@@ -20,7 +20,7 @@ The code for this conversion can be found in [sentiment-analyis.ipynb](sentiment
 - The model's accuracy improves over training but not by a significant amount.
 - Validation accuracy changes over epochs but with no major change.
 - Resulting model produces the following confusion matrix on test data  
-![FT FFN HM](images/FT_FFN_HM.jpg)
+![FT FFN HM](images/FT_FFN_hm.jpg)
 - The model still ends up acting more like a binary classifier, but it performs slightly better on 'Highly Negative' and 'Highly Positive' reviews.
 - The model has a validation accuracy of 41.78% and test accuracy of 44.12%
 - The model has an f1 score of 0.4106
