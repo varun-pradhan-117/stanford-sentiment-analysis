@@ -62,7 +62,6 @@ def train():
     parser.add_argument("--clf_loss_coef", type=float, default=1, help="If >0 add a classification loss")
     parser.add_argument("--train_batch_size", type=int, default=32, help="Batch size for training")
     parser.add_argument("--valid_batch_size", type=int, default=32, help="Batch size for validation")
-    #parser.add_argument("--valid_pct", type=float, default=0.1, help="Percentage of training data to use for validation")
     parser.add_argument("--lr", type=float, default=6.5e-5, help="Learning rate")
     parser.add_argument("--n_warmup", type=int, default=10, help="Number of warmup iterations")
     parser.add_argument("--max_norm", type=float, default=1.0, help="Clipping gradient norm")

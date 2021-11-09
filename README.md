@@ -24,3 +24,10 @@ The code for this conversion can be found in [Linear-TFIDF.ipynb](models/Linear-
 - The model still ends up acting more like a binary classifier, but it performs slightly better on 'Highly Negative' and 'Highly Positive' reviews.
 - The model has a validation accuracy of 41.78% and test accuracy of 44.12%
 - The model has an f1 score of 0.4106
+
+3) The last model we try uses a Transformer model as showcased in https://github.com/huggingface/naacl_transfer_learning_tutorial
+- The model uses bertokenizer to tokenize data
+- Model weights are initialized from the pretrained model provided by huggingface
+- The model is trained for 3 epochs
+- It results in a validation accuracy of 48.229% and a test accuracy of 49.276%
+![Transformer Accuracy](images/Transformer_Accuracy.JPG)
