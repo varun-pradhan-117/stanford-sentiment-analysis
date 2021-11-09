@@ -25,3 +25,4 @@ trainDevTestTrees_PTB.zip
 simpleHillClimb.cpp
 simpleHillClimb.exe
 trash.py
+*.pyc
